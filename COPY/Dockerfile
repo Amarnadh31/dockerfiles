@@ -4,4 +4,4 @@ LABEL author=Amar \
       project=expense
 ENV environment=dev project=expense
 RUN dnf install nginx -y
-COPY /D/devops/repos/dockerfiles/docker.sh /tmp
+COPY D:\devops\repos\dockerfiles\docker.sh /tmp
