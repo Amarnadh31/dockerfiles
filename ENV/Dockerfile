@@ -1,7 +1,7 @@
 FROM almalinux:9
+EXPOSE 80
 LABEL author=Amar \
       project=expense \
-EXPOSE 80
 ENV Name="Amar" \
     Environment="Dev"
 RUN dnf install nginx -y
