@@ -1,4 +1,4 @@
 FROM almalinux:9
 EXPOSE 90
-ADD gzip sample-2.zip /tmp/
+ADD sample-5.tar /tmp/
 RUN dnf install nginx -y
