@@ -1,0 +1,7 @@
+from almalinux:9
+expose 80 8080
+label author=Amar \
+      environment=dev \
+      project=expense
+run dnf install nginx -y
+cmd ["nginx", "-g", "daemon off;"]  
