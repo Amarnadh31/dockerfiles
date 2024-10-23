@@ -1,4 +1,5 @@
-FROM almalinux:9
+ARG version
+FROM almalinux:${version:-9}
 ENV NAME=Ramesh \
     COURSE=DevOps
 RUN echo "my name is $NAME, I have taken $COURSE training"
